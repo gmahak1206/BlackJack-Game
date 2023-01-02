@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+}
+body{
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url("dark-green-background-dirty-texture-260nw-455294731.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+.container{
+    text-align: center;
+    font-size: x-large; 
+}
+
+p,span{
+    color:aliceblue;
+}
+
+button{
+    background: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight:900;
+}
