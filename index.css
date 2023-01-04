@@ -18,15 +18,15 @@ h1 {
     font-size: x-large; 
 }
 
-p{
+p,span{
     color:aliceblue;
 }
-
+.name_btn{
+    margin-top: 5px;
+    padding: 5px 30px;
+}
 button{
     background: goldenrod;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 10px 50px;
     font-weight:900;
 }
