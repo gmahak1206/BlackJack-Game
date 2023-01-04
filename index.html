@@ -10,12 +10,18 @@
 <body>
     <div class="container">
         <h1>Blackjack</h1>
+            <span>Name:&nbsp;&nbsp;<input type="text" id="name" placeholder="enter your name" required> </span>
+        <br>
+        <button class="name_btn" id="name_enter">ENTER</button>
+        
         <p id="message-el">Want to play a round?</p>
         <p id="cards-el">Cards:</p>
         <p id="sum-el">Sum:</p>
         <button onclick="startGame()">START GAME</button>
         <button onclick="newCard()">NEW CARD</button>
-        <p id="player-el"></p>
+        <br><br>
+        <span id="player-el"></span>
+        <span id="points-el"></span>
     </div>
     <script src="index.js"></script>
 </body>
